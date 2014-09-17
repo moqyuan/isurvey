@@ -1,0 +1,845 @@
+[ 2014-08-15T18:15:26+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001716s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004875s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.006341s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004810s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002653s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000759s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2014-08-15T18:15:38+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005494s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004053s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004455s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000448s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:15:43+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.007574s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.014783s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002100s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.007985s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000612s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:15:48+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+ERR: 非法操作:index.php
+
+[ 2014-08-15T18:15:51+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005851s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.006322s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004904s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000411s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:15:56+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005027s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005994s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.007057s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000508s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:16:01+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005404s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004900s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004476s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000412s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:16:06+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004693s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004597s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004153s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000353s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:16:08+09:00 ] 0.0.0.0 /yamatotp/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005177s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.006196s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004689s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000466s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:16:13+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004568s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.006540s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004606s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000908s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:16:18+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005828s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004752s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.007272s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000482s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:16:23+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005301s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004359s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004529s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000372s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:16:29+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004967s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004230s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004630s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000429s ]
+ERR: 模板不存在[./App/Tpl/Index/Index/index.html]
+
+[ 2014-08-15T18:16:34+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005959s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.005037s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012692s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000885s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000801s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003501s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2014-08-15T18:25:32+09:00 ] 0.0.0.0 /yamatotp/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004575s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004136s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004294s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011459s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001279s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001064s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001025s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005229s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001086s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2014-08-15T18:25:37+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004971s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005373s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.005356s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013312s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001140s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000886s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003606s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2014-08-15T18:25:39+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004832s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004212s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004355s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011991s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000814s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000867s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003156s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2014-08-15T18:25:42+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.006308s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005226s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004597s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002882s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2014-08-15T18:25:44+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+ERR: 非法操作:index.php
+NOTIC: [2] include(): Filename cannot be empty C:\wamp\www\yamatotp\ThinkPHP\Common\functions.php 第 52 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;C:\wamp\www\yamatotp\ThinkPHP/Extend/Vendor/') C:\wamp\www\yamatotp\ThinkPHP\Common\functions.php 第 52 行.
+
+[ 2014-08-15T18:25:51+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/indexphp
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 非法操作:indexphp
+NOTIC: [2] include(): Filename cannot be empty C:\wamp\www\yamatotp\ThinkPHP\Common\functions.php 第 52 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;C:\wamp\www\yamatotp\ThinkPHP/Extend/Vendor/') C:\wamp\www\yamatotp\ThinkPHP\Common\functions.php 第 52 行.
+
+[ 2014-08-15T18:25:54+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+ERR: 非法操作:index.php
+NOTIC: [2] include(): Filename cannot be empty C:\wamp\www\yamatotp\ThinkPHP\Common\functions.php 第 52 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear;C:\wamp\www\yamatotp\ThinkPHP/Extend/Vendor/') C:\wamp\www\yamatotp\ThinkPHP\Common\functions.php 第 52 行.
+
+[ 2014-08-15T18:26:11+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.006416s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005468s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.006321s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013290s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000678s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000643s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2014-08-15T18:29:15+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.006514s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004814s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.005883s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(U(__PUBLIC__/include/test.php)): failed to open stream: No such file or directory C:\wamp\www\yamatotp\App\Runtime\Cache\Index\e9d33c73a647601102883f4d256d5064.php 第 36 行.
+NOTIC: [2] include(): Failed opening 'U(__PUBLIC__/include/test.php)' for inclusion (include_path='.;C:\php\pear;C:\wamp\www\yamatotp\ThinkPHP/Extend/Vendor/') C:\wamp\www\yamatotp\App\Runtime\Cache\Index\e9d33c73a647601102883f4d256d5064.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000668s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000612s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002725s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2014-08-15T18:30:56+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004618s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.006130s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.005503s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Public/include/test.php): failed to open stream: No such file or directory C:\wamp\www\yamatotp\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011824s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002743s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-08-15T18:31:39+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.006015s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.006366s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.006304s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Index/Public/test.php): failed to open stream: No such file or directory C:\wamp\www\yamatotp\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000658s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002682s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2014-08-15T18:32:46+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004727s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005333s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004483s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Index/Public/test.php): failed to open stream: No such file or directory C:\wamp\www\yamatotp\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011153s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000628s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000608s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002616s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2014-08-15T18:33:03+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004508s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004556s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.005622s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Tpl/Index/Public/test.php): failed to open stream: No such file or directory C:\wamp\www\yamatotp\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012197s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000603s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2014-08-15T18:33:13+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001127s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005327s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004976s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.005005s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public:test.php): failed to open stream: No such file or directory C:\wamp\www\yamatotp\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010574s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000685s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003091s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001093s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2014-08-15T18:34:35+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004567s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004778s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004429s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000927s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2014-08-15T18:35:03+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005021s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004558s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004718s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012856s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000740s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000926s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003228s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2014-08-15T18:35:57+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.006052s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.006952s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.006256s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000696s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000812s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2014-08-15T18:36:31+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005849s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005946s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.005506s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011848s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000639s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002793s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2014-08-15T18:44:31+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004665s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.007035s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.006892s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.001157s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018277s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001077s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001053s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004491s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2014-08-15T18:46:47+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004641s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005681s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004560s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012188s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000903s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000828s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2014-08-15T18:46:50+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004760s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005291s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.005415s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012386s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001184s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000734s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004139s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001323s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2014-08-15T18:47:52+09:00 ] 0.0.0.0 /yamatotp/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005225s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004516s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.006990s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014390s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001045s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000951s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004270s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2014-08-15T18:48:25+09:00 ] 0.0.0.0 /yamatotp/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005758s ]
+SQL: SELECT * FROM `ys_s`  [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004614s ]
+SQL: SELECT * FROM `ys_q` WHERE ( del=0 )  [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004530s ]
+SQL: SELECT * FROM `ys_a` WHERE ( del=0 )  [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `ys_t` [ RunTime:0.004974s ]
+SQL: SELECT * FROM `ys_t` WHERE ( del=0 )  [ RunTime:0.000490s ]
+SQL: SELECT * FROM `ys_q` WHERE ( del=0 )  [ RunTime:0.000391s ]
+SQL: SELECT * FROM `ys_a` WHERE ( del=0 )  [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Public/include/include_meta.php): failed to open stream: No such file or directory C:\wamp\www\yamatotp\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014403s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000918s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000773s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2014-08-15T18:48:36+09:00 ] 0.0.0.0 /yamatotp/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004454s ]
+SQL: SELECT * FROM `ys_s`  [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004243s ]
+SQL: SELECT * FROM `ys_q` WHERE ( del=0 )  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004444s ]
+SQL: SELECT * FROM `ys_a` WHERE ( del=0 )  [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `ys_t` [ RunTime:0.004761s ]
+SQL: SELECT * FROM `ys_t` WHERE ( del=0 )  [ RunTime:0.000385s ]
+SQL: SELECT * FROM `ys_q` WHERE ( del=0 )  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `ys_a` WHERE ( del=0 )  [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\wamp\www\yamatotp\App\Runtime\Cache\Admin\f741280836a349ee75639245f4dfc672.php 第 15 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000807s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000639s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002911s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2014-08-15T18:49:16+09:00 ] 0.0.0.0 /yamatotp/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.004735s ]
+SQL: SELECT * FROM `ys_s` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.005145s ]
+SQL: SELECT * FROM `ys_q` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004823s ]
+SQL: SELECT * FROM `ys_a` WHERE ( qid=1 )  [ RunTime:0.000873s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014893s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000688s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000635s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002784s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2014-08-15T18:50:04+09:00 ] 0.0.0.0 /yamatotp/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `ys_s` [ RunTime:0.005604s ]
+SQL: SELECT * FROM `ys_s`  [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `ys_q` [ RunTime:0.004959s ]
+SQL: SELECT * FROM `ys_q` WHERE ( del=0 )  [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `ys_a` [ RunTime:0.004722s ]
+SQL: SELECT * FROM `ys_a` WHERE ( del=0 )  [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `ys_t` [ RunTime:0.005626s ]
+SQL: SELECT * FROM `ys_t` WHERE ( del=0 )  [ RunTime:0.000501s ]
+SQL: SELECT * FROM `ys_q` WHERE ( del=0 )  [ RunTime:0.000593s ]
+SQL: SELECT * FROM `ys_a` WHERE ( del=0 )  [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000622s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002877s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+

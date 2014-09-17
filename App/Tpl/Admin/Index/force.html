@@ -1,0 +1,240 @@
+<?php
+ini_set('default_charset','utf-8');
+//Database
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="MoQ">
+  <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style.css">
+  <title>{$title}</title>
+
+  <style>
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+#licensing {
+  fill: green;
+}
+
+.link.licensing {
+  stroke: green;
+}
+
+.link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+
+/*circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1px;
+}*/
+.circleA{
+  fill: #f86e01;
+  stroke: #FFF;
+  stroke-width: 1px;
+}
+.circleQ{
+  fill: #67bc85;
+  stroke: #FFF;
+  stroke-width: 1px;
+}
+.circleT{
+  fill: #c73422;
+  stroke: #FFF;
+  stroke-width: 1px;
+}
+
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+#mysvg {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  border: 2px rgba(0,0,0,0.5) solid;
+}
+
+</style>
+  
+</head>
+<body>
+  <script type="text/javascript">
+
+
+
+  </script>
+<!-- Static navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: rgba(0,0,0,0.8)">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <span style="color:#FFFFFF"><strong>iSurvery Management System</strong></span>
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <!-- 
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>              
+      </ul>
+       -->
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="#" style="color:#FFFFFF">ログアウト</a></li>  
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</div>
+<!-- /Static navbar -->
+
+<!-- Main-->
+<div id="wrapper">
+  <div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <noscript>
+    <div class="alert alert-danger">このブラウザーがJavascriptをサポートしていません。<br>Javascript機能がこのブラウザーで禁止されているかどうか確認してください。</div>
+    </noscript>
+    <!-- QUESTION -->
+    <div id="mysvg">
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <script>
+
+// http://blog.thomsonreuters.com/index.php/mobile-patent-suits-graphic-of-the-day/
+var links = {$data};
+
+var nodes = {};
+
+// Compute the distinct nodes from the links.
+links.forEach(function(link) {
+  link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+  link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
+});
+
+var width = 960,
+    height = 500;
+
+var force = d3.layout.force()
+    .nodes(d3.values(nodes))
+    .links(links)
+    .size([width, height])
+    .linkDistance(60)
+    .charge(-300)
+    .on("tick", tick)
+    .start();
+
+var svg = d3.select("#mysvg").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+// Per-type markers, as they don't inherit styles.
+svg.append("defs").selectAll("marker")
+    .data(["suit", "licensing", "resolved"])
+  .enter().append("marker")
+    .attr("id", function(d) { return d; })
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 15)
+    .attr("refY", -1.5)
+    .attr("markerWidth", 6)
+    .attr("markerHeight", 6)
+    .attr("orient", "auto")
+  .append("path")
+    .attr("d", "M0,-5L10,0L0,5");
+
+var path = svg.append("g").selectAll("path")
+    .data(force.links())
+  .enter().append("path")
+    .attr("class", function(d) { return "link " + d.type; })
+    .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
+
+var circle = svg.append("g").selectAll("circle")
+    .data(force.nodes())
+  .enter().append("circle")
+    .attr("r", function(d){ 
+      var temp=d.name.split("_")[0];
+
+      if(temp=='Q'){
+        return 10;
+      }else if(temp=='A'){
+        return 6;
+      }else if(temp=='T'){
+        return 10;
+      }
+
+    })
+    .attr("class", function(d) { return "circle"+d.name.split("_")[0]; })
+    .call(force.drag);
+
+var text = svg.append("g").selectAll("text")
+    .data(force.nodes())
+  .enter().append("text")
+    .attr("x", 8)
+    .attr("y", ".31em")
+    .text(function(d) { return d.name; });
+
+// Use elliptical arc path segments to doubly-encode directionality.
+function tick() {
+  path.attr("d", linkArc);
+  circle.attr("transform", transform);
+  text.attr("transform", transform);
+}
+
+function linkArc(d) {
+  var dx = d.target.x - d.source.x,
+      dy = d.target.y - d.source.y,
+      dr = 0;
+  return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 1, 1 " + d.target.x + "," + d.target.y;
+}
+
+function transform(d) {
+  return "translate(" + d.x + "," + d.y + ")";
+}
+
+function circleType(d){
+  return "translate("+d.source+")";
+}
+
+
+
+</script>   
+    </div>
+    <!-- /QUESTION -->
+  </div>
+  <div class="col-md-2"></div>
+  </div>
+</div>
+<!--/Main--> 
+
+
+
+
+
+
+<!--/Login-->
+
+
+</body>
+
+<script src="__PUBLIC__/js/app.js"></script>
+</html>
